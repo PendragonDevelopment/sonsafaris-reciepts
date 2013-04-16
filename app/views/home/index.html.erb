@@ -1,4 +1,5 @@
 <h3>Home</h3>
+<h4><%= link_to "Add new donor", new_donor_path %></h4>
 <% @users.each do |user| %>
   <p>User: <%=link_to user.name, user %></p>
 <% end %>
