@@ -1,0 +1,13 @@
+<h2>Create new user</h2>
+<%= simple_form_for(@donor, :html => {:class => 'form-vertical' }) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :first_name, :autofocus => true %>
+  <%= f.input :last_name %>
+  <%= f.input :email, :required => true %>
+  <%= f.input :street_address %>
+  <%= f.input :city %>
+  <%= f.input :state %>
+  <%= f.input :zip_code %>
+  <%= f.button :submit, 'Create new donor', :class => 'btn-primary' %>
+<% end %>

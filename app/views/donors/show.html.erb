@@ -1,0 +1,6 @@
+<h1><%= @donor.name %></h1>
+
+<h3>Address</h3>
+<p>Street: <%= @donor.street_address %></p>
+<p><%= @donor.city %>, <%= @donor.state %> <%= @donor.zip_code %></p>
+<%= link_to "Edit #{@donor.name}", edit_donor_path(@donor) %>

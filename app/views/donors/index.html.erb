@@ -1,0 +1,6 @@
+<h1>Donors</h1>
+<ul>
+	<% @donors.each do |donor| %>
+		<li><%= link_to "#{donor.first_name} #{donor.last_name}", donor %></li>
+	<% end %>
+</ul>
