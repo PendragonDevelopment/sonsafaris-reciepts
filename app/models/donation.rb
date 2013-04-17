@@ -12,6 +12,6 @@
 #
 
 class Donation < ActiveRecord::Base
-	belongs_to :user
-  attr_accessible :amount, :details, :donation_date, :user_id
+	belongs_to :donor
+  attr_accessible :amount, :details, :donation_date, :donor_id
 end

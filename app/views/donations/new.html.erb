@@ -1,0 +1,8 @@
+<h1>Add new donation record</h1>
+<%= simple_form_for([@donor, @donation], :html => { :class => "form-vertical" }) do |f| %>
+	<%= f.input :donation_date, as: :date, start_year: Date.today.year - 2,
+  	end_year: Date.today.year + 2, order: [:day, :month, :year] %>
+  <%= f.input :amount %>
+  <%= f.input :details %>
+  <%= f.button :submit, "Record Donation", :class => "btn btn-primary" %>
+<% end %>

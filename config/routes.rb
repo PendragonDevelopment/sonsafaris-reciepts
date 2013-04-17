@@ -1,5 +1,17 @@
 SonsafarisReciepts::Application.routes.draw do
 
+  get "donations/new"
+
+  get "donations/create"
+
+  get "donations/show"
+
+  get "donations/index"
+
+  get "donations/edit"
+
+  get "donations/update"
+
   authenticated :user do
     root :to => 'home#index'
   end
@@ -7,7 +19,9 @@ SonsafarisReciepts::Application.routes.draw do
   devise_for :users
 
   resources :users 
-  resources :donors
+  resources :donors do
+  	resources :donations
+  end
 end
 #== Route Map
 # Generated on 16 Apr 2013 16:11

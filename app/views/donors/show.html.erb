@@ -4,3 +4,11 @@
 <p>Street: <%= @donor.street_address %></p>
 <p><%= @donor.city %>, <%= @donor.state %> <%= @donor.zip_code %></p>
 <%= link_to "Edit #{@donor.name}", edit_donor_path(@donor) %>
+
+<h4><%= link_to "Add donation record", new_donor_donation_path(@donor) %></h4>
+
+<ul>
+	<% @donor.donations.each do |donation| %>
+		<li>On <%= donation.donation_date %>, <%= @donor.name %> gave $<%= donation.amount %>.<br/>Notes: <%= donation.details %></li>
+	<% end %>
+</ul>
