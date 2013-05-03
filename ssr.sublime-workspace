@@ -1,0 +1,1503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"donation"
+			],
+			[
+				"Don",
+				"Donor"
+			],
+			[
+				"donor",
+				"donor_id"
+			],
+			[
+				"don",
+				"donor"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"fin",
+				"find"
+			],
+			[
+				"author",
+				"authorized"
+			],
+			[
+				"auth",
+				"authorize"
+			],
+			[
+				"pre",
+				"precompile"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"p",
+				"div#cta>section.container>div.sign-up.button+p"
+			],
+			[
+				"dar",
+				"dark-grey"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"sub",
+				"subdomain"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"address",
+				"address"
+			],
+			[
+				"res",
+				"resumedoc"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fieldset",
+				"fieldset	<fieldset>"
+			],
+			[
+				"te",
+				"text_area"
+			],
+			[
+				"label",
+				"label_tag"
+			],
+			[
+				"addr",
+				"address_form"
+			],
+			[
+				"tex",
+				"text_field"
+			],
+			[
+				"add",
+				"address_form"
+			],
+			[
+				"fiel",
+				"fields_for"
+			],
+			[
+				"ski",
+				"skill_form"
+			],
+			[
+				"lab",
+				"label_tag"
+			],
+			[
+				"all",
+				"allow_destroy"
+			],
+			[
+				"acc",
+				"accepts_nested_attributes_for"
+			],
+			[
+				"resume",
+				"resumedoc"
+			],
+			[
+				"ca",
+				"cancel_subscription"
+			],
+			[
+				"custo",
+				"customer"
+			],
+			[
+				"st",
+				"stripe_id"
+			],
+			[
+				"str",
+				"stripe_token"
+			],
+			[
+				"subscr",
+				"subscription"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Short paragraph"
+			],
+			[
+				"stripe",
+				"stripe_id"
+			],
+			[
+				"valid",
+				"validates_presence_of"
+			],
+			[
+				"div",
+				"div	<div>"
+			],
+			[
+				"devise",
+				"devise_mailchimp"
+			],
+			[
+				"ul",
+				"div#navwrap>nav.container>ul"
+			],
+			[
+				"img",
+				"div#supersized>img"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"total",
+				"total_points"
+			],
+			[
+				"pro",
+				"Proficiency"
+			],
+			[
+				"char",
+				"character"
+			],
+			[
+				"form",
+				"form	form - Placeholder"
+			],
+			[
+				"current",
+				"currentUser"
+			],
+			[
+				"settin",
+				"settings"
+			],
+			[
+				"puts",
+				"puts_none"
+			],
+			[
+				"ind",
+				"indata"
+			],
+			[
+				"Fi",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"from",
+				"from_file"
+			],
+			[
+				"line",
+				"line3"
+			],
+			[
+				"th",
+				"third"
+			],
+			[
+				"ch",
+				"chomp"
+			],
+			[
+				"ba",
+				"backslash_cat"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ab",
+				"absolute  (value)"
+			],
+			[
+				"quo",
+				"quote_id"
+			],
+			[
+				"qu",
+				"quote_id"
+			],
+			[
+				"backgro",
+				"background	background-color: hex"
+			],
+			[
+				"bac",
+				"background	background: color image repeat attachment position"
+			],
+			[
+				"back",
+				"background	background-image: url"
+			],
+			[
+				"repea",
+				"repeat-y  (value)"
+			],
+			[
+				"figcaption",
+				"figcaption"
+			],
+			[
+				"figure",
+				"section>figure"
+			],
+			[
+				"input",
+				"input	input - submit"
+			],
+			[
+				"break-w",
+				"break-word  (value)"
+			],
+			[
+				"word",
+				"word-wrap:   (property)"
+			],
+			[
+				"break",
+				"break-before:   (property)"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"c",
+				"class	@class"
+			],
+			[
+				"h",
+				"Helvetica"
+			],
+			[
+				"se",
+				"\"Times New Roman\", Times, serif"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"class",
+				"class=  (attribute)"
+			],
+			[
+				"t",
+				"title=  (attribute)"
+			],
+			[
+				"ti",
+				"title=  (attribute)"
+			],
+			[
+				"link",
+				"link: link - alternate"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"h6",
+				"h6"
+			],
+			[
+				"h3",
+				"h3"
+			],
+			[
+				"dd",
+				"dd"
+			],
+			[
+				"strong",
+				"strong"
+			],
+			[
+				"h1",
+				"h1"
+			],
+			[
+				"h2",
+				"h2"
+			],
+			[
+				"script",
+				"script"
+			],
+			[
+				"h4",
+				"h4"
+			],
+			[
+				"Our",
+				"Our"
+			],
+			[
+				"textarea",
+				"textarea"
+			],
+			[
+				"profile",
+				"div.profile"
+			],
+			[
+				"js",
+				"script.js"
+			],
+			[
+				"tagline",
+				"div#wrapper>header>img.logo+h1.tagline"
+			],
+			[
+				"desc",
+				"ul>li*5>span.desc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.yml",
+			"settings":
+			{
+				"buffer_size": 850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/donation.rb",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/donors/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/donors_controller.rb",
+			"settings":
+			{
+				"buffer_size": 726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/donor.rb",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/donors/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/donors/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/donors/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1076,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/donations_controller.rb",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/donations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 1124,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"Snippet: n",
+				"Snippet: nav5"
+			],
+			[
+				"Snippet: ",
+				"Snippet: indexpage"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"fe",
+				"Fetch: Manage remote files"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: n",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/sonsafaris-reciepts/app/views/layouts/_navigation.html.erb",
+		"/C/Sites/sonsafaris-reciepts/config/routes.rb",
+		"/C/Sites/sonsafaris-reciepts/app/controllers/admin/users_controller.rb",
+		"/C/Sites/sonsafaris-reciepts/app/views/admin/users/new.html.erb",
+		"/C/Sites/sonsafaris-reciepts/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/sonsafaris-reciepts/db/migrate/20130416183519_create_donations.rb",
+		"/C/Sites/sonsafaris-reciepts/app/controllers/admin/users_controller",
+		"/C/Sites/godoccentral.com/config/database.example.yml",
+		"/C/Sites/godoccentral.com/db/schema.rb",
+		"/C/Users/Jordan/Dropbox/godoccentral.com/db/schema.rb",
+		"/C/Sites/athena/app/assets/stylesheets/application.css.scss",
+		"/C/Sites/bwd_custom_designs/landscaping/views/_layout.html.erb",
+		"/C/Sites/pendragondevelopment/_themes/pendragon/layouts/default.html",
+		"/C/Sites/athena/app/assets/stylesheets/_kraken-forms.scss",
+		"/C/Sites/athena/app/assets/stylesheets/_kraken-plugins.scss",
+		"/C/Sites/athena/config/application.rb",
+		"/C/Sites/athena/app/assets/stylesheets/application.scss",
+		"/C/Sites/athena/app/assets/stylesheets/application.css",
+		"/C/Users/Jordan/Downloads/FortAwesome-Font-Awesome-v3.0.2-0-g13d5dd3/FortAwesome-Font-Awesome-13d5dd3/sass/font-awesome.scss",
+		"/C/Sites/athena/app/assets/stylesheets/_kraken-print.scss",
+		"/C/Sites/athena/app/assets/stylesheets/pricing.css.scss",
+		"/C/Sites/athena/app/assets/stylesheets/_kraken-custom-settings.scss",
+		"/C/Sites/athena/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/C/Sites/athena/public/humans.txt",
+		"/C/Sites/godoccentral.com/README.md",
+		"/C/Sites/spartan/Gemfile",
+		"/C/Sites/athena/spec/models/resume_spec.rb",
+		"/C/Sites/godoccentral.com/.dropbox",
+		"/C/Sites/athena/db/migrate/20130329010717_create_resumes.rb",
+		"/C/Sites/athena/config/environments/development.rb",
+		"/C/Sites/athena/config/application.yml",
+		"/C/Sites/athena/config/environments/production.rb",
+		"/C/Sites/athena/.gitignore",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/default.settings.php",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/php.ini",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/.htaccess",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/cgi-bin/php.ini",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/cgi-bin/php5-custom-ini.cgi",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/cgi-bin/printenv",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/cgi-bin/test-cgi",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/cgi-bin/.htaccess",
+		"/C/Users/Ambrose Pendragon/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Ambrose Pendragon/AppData/Local/Temp/fz3temp-1/settings.php",
+		"/C/Users/Ambrose Pendragon/Desktop/In Progress/ResLife/drupal-6.26/drupal-6.26/.htaccess",
+		"/C/dovahkiin/app/views/pages/about.html.erb",
+		"/C/dovahkiin/app/controllers/home_controller.rb",
+		"/C/dovahkiin/app/views/users/show.html.erb",
+		"/C/dovahkiin/app/views/users/index.html.erb",
+		"/C/dovahkiin/app/views/layouts/application.html.erb",
+		"/C/dovahkiin/app/views/pages/faq.html.erb",
+		"/C/dovahkiin/app/views/pages/plans.html.erb",
+		"/C/dovahkiin/app/views/pages/how-it-works.html.erb",
+		"/C/dovahkiin/app/views/pages/pricing.html.erb",
+		"/C/dovahkiin/app/views/layouts/cv.html.erb",
+		"/C/resume/index.html",
+		"/C/dovahkiin/app/views/contact/new.html.erb",
+		"/C/Users/Ambrose Pendragon/Downloads/Simple-Login-Form/Index.html",
+		"/C/Users/Ambrose Pendragon/Downloads/Simple-Login-Form/css/structure.css",
+		"/C/dovahkiin/app/assets/stylesheets/style.css.scss",
+		"/C/dovahkiin/app/controllers/profiles_controller.rb",
+		"/C/dovahkiin/Gemfile",
+		"/C/dovahkiin/app/assets/stylesheets/_600.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_768.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_960.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_settings.scss",
+		"/C/dovahkiin/db/seeds.rb",
+		"/C/dovahkiin/app/controllers/users_controller.rb",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Insert As Tag/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Insert As Tag/Commands.sublime-commands",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Lint/Commands.sublime-commands",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/sublime-html-to-haml/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/Default.sublime-commands",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Default.sublime-theme",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-commands",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/DetectSyntax/DetectSyntax.sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences (Windows).sublime-settings",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/D/class.sublime-snippet",
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Rails/class.sublime-snippet",
+		"/C/dovahkiin/README.rdoc",
+		"/C/dovahkiin/app/assets/javascripts/application.js",
+		"/C/dovahkiin/config/routes.rb",
+		"/C/dovahkiin/config/initializers/session_store.rb",
+		"/C/dovahkiin/config/environments/production.rb",
+		"/C/resume/css/themes.scss",
+		"/C/dovahkiin/app/models/user.rb",
+		"/C/dovahkiin/app/assets/stylesheets/style.scss",
+		"/C/resume/css/_1300.scss",
+		"/C/resume/css/_960.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_960.scss",
+		"/C/resume/css/_768.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_768.scss",
+		"/C/resume/css/_600.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_600.scss",
+		"/C/resume/css/_480.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_480.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_base.scss",
+		"/C/dovahkiin/app/assets/stylesheets/cv/_layouts.scss",
+		"/C/resume/css/_layouts.scss",
+		"/C/resume/css/style.scss",
+		"/C/resume/css/_base.scss",
+		"/C/resume/css/_settings.scss",
+		"/C/dovahkiin/app/views/devise/registrations/new.html.erb",
+		"/C/resume/js/scripts.js",
+		"/C/dovahkiin/config/application.rb",
+		"/C/dovahkiin/lib/subdomain.rb",
+		"/C/Users/Ambrose Pendragon/Pictures/basil.txt",
+		"/C/dovahkiin/db/migrate/20120918173409_rolify_create_roles.rb",
+		"/C/dovahkiin/app/assets/stylesheets/application.css.scss",
+		"/C/wamp/www/CRCCG/css/style.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_flexnav.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_base.scss",
+		"/C/dovahkiin/app/assets/stylesheets/_480.scss",
+		"/C/dovahkiin/app/controllers/contact_controller.rb",
+		"/C/WATK/Labs/IntroToWindowsAzureVirtualMachines/Source/Assets/AzureStore/Web.config",
+		"/C/dovahkiin/config/environments/development.rb",
+		"/C/Users/Ambrose Pendragon/.bashrc",
+		"/C/dovahkiin/app/models/message.rb",
+		"/C/dovahkiin/app/mailers/notifications_mailer.rb",
+		"/C/dovahkiin/app/views/notifications_mailer/new_message.text.erb"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"img",
+			";\n",
+			"$color",
+			"bg",
+			"class",
+			".",
+			"(use the whole thing!)",
+			"  \n",
+			"pg",
+			"subscription",
+			"user",
+			" class=\"input\"",
+			" class=\"clearfix\"",
+			"width:66%",
+			"width:80%",
+			"width:100%",
+			"important",
+			"</span>",
+			"<span style=\"color: #1f497d;\">",
+			"cgi.force_redirect = 0",
+			"skill_proficiencies",
+			"@character",
+			"@book",
+			"one-third column",
+			"label_html",
+			"18..60",
+			"../font/",
+			"merchdesign.net/build",
+			"%3E",
+			"%20",
+			"confirm",
+			"alert",
+			"images",
+			"<br />",
+			"border=\"0\" ",
+			"wishlist",
+			"order",
+			"four",
+			"commerce_order_load",
+			"data",
+			".php",
+			"css",
+			"Design",
+			".",
+			"                }",
+			"a",
+			"container",
+			"img",
+			"images",
+			"\nwpsc_product_form_fields",
+			"\nproduct_form",
+			"\n'<form class=\"product_form\"'",
+			"contactus.html",
+			"last_name",
+			"first_name",
+			"right",
+			"container_12",
+			"expertise",
+			"icon",
+			"&",
+			"sonsafaris",
+			"&",
+			"3",
+			"7",
+			"sonsafaris"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$off-white",
+			"dark-grey",
+			"",
+			"resume",
+			"@subscription",
+			"subscription",
+			"",
+			"width:70%",
+			"width:66%",
+			"width:80%",
+			"",
+			"best_in_place @character",
+			"@character",
+			"four columns",
+			"wrapper_html",
+			"1..10",
+			"",
+			"../images",
+			"",
+			"quote",
+			".html",
+			"container_12",
+			"img",
+			"contactus.php",
+			"apartment",
+			"fullname",
+			"container",
+			"&amp;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 17,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 1450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/application.yml",
+					"settings":
+					{
+						"buffer_size": 850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								652,
+								850
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 814.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/donation.rb",
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/environments/development.rb",
+					"settings":
+					{
+						"buffer_size": 1873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/donors/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								440
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/donors_controller.rb",
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/donor.rb",
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/donors/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/donors/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/donors/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/controllers/donations_controller.rb",
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								810,
+								810
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 74.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/views/donations/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "db/seeds.rb",
+					"settings":
+					{
+						"buffer_size": 1124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.sftp":
+	{
+		"height": 168.0
+	},
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ho",
+				"/C/wamp/www/rails_projects/sample_app/app/views/pages/home.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Sites/godoccentral.com/godoc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}

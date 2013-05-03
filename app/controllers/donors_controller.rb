@@ -33,7 +33,7 @@ class DonorsController < ApplicationController
   end
 
   def index
-  	@donors = Donor.all
+  	@donors = Donor.order("last_name ASC")
   end
 
   def show
