@@ -2,7 +2,7 @@
 <h3>Total all-time donations: <%= @totals %></h3>
 <% @donations_by_month.keys.sort.each do |month| %>
   <div class="month">
-    <h2>Month starting <%= month.to_s %></h2>
+    <h2>Month starting <%= month.strftime("%B %Y") %></h2>
     total for month: <%= @donations_by_month[month].collect(&:amount).sum %>
     <h4>Each donation</h4>
     <ul>
