@@ -51,7 +51,7 @@ class DonationsController < ApplicationController
       @donation = d
       MonthlyReportMailer.send_report(@donor, @donation).deliver
     end
-    redirect_to 'donation_totals', :notice => "Emails sent!"
+    redirect_to donation_totals_url, :notice => "Emails sent!"
   end
 
 end
