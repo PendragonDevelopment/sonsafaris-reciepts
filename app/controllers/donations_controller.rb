@@ -34,6 +34,12 @@ class DonationsController < ApplicationController
   def update
   end
 
+  def destroy
+    @donation = Donation.find(params[:id])
+    @donation.destroy
+    redirect_to :root, :notice => "Donation removed."
+  end
+
   def donation_totals
     @donations = Donation.all
     @totals = 0

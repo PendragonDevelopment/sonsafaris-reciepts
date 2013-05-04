@@ -9,6 +9,6 @@
 
 <ul>
 	<% @donor.donations.each do |donation| %>
-		<li>On <%= donation.donation_date %>, <%= @donor.name %> gave $<%= donation.amount %>.<br/>Notes: <%= donation.details %></li>
+		<li>On <%= donation.donation_date %>, <%= @donor.name %> gave $<%= donation.amount %>.<br/>Notes: <%= donation.details %><%= link_to("Delete donation", donor_donation_path(@donor, donation), :data => { :confirm => "Are you sure?" }, :method => :delete, :class => 'btn btn-mini') %></li>
 	<% end %>
 </ul>
