@@ -14,7 +14,8 @@ SonsafarisReciepts::Application.configure do
   config.action_controller.perform_caching = false
 
   # ActionMailer Config
-  config.action_mailer.default_url_options = { :host => 'receipts.sonsafaris.com' }
+  config.action_mailer.default_url_options = { :host => 'localhost' }
+  config.mandrill_mailer.default_url_options = { :host => 'localhost' }
   config.action_mailer.delivery_method = :smtp
   # change to true to allow email to be sent during development
   config.action_mailer.perform_deliveries = true

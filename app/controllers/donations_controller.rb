@@ -41,12 +41,17 @@ class DonationsController < ApplicationController
       @totals += d.amount
     end
     @donations_by_month = Donation.find(:all).group_by{|donation| donation.donation_date.at_beginning_of_month}
-
   end
 
-  # def donations_by_month
-  #   @month = params[:month]
-  #   @donations_for_month = Donation.where(:donation_date => @month.beginning_of_month..@month.end_of_month)
+  def send_monthly_reports
+    month = params[:month].to_date
+    @donations = Donation.find(:all, :conditions => {:donation_date => month.beginning_of_month..month.end_of_month})
+    @donations.each do |d|
+      @donor = d.donor
+      @donation = d
+      MonthlyReportMailer.send_report(@donor, @donation).deliver
+    end
+    redirect_to 'donation_totals', :notice => "Emails sent!"
+  end
 
-  # end
 end
