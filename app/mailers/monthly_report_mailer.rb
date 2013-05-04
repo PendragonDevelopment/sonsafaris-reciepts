@@ -1,6 +1,6 @@
 class MonthlyReportMailer < MandrillMailer::TemplateMailer
-  default from: 'fledge@sonsafaris.com',
-          from_name: 'Fledge Fiamingo'
+  default from: 'webmaster@sonsafaris.com',
+          from_name: 'Son Safaris'
 
   def send_report(donor, donation)
     mandrill_mail template: 'new eom receipt',
@@ -12,6 +12,6 @@ class MonthlyReportMailer < MandrillMailer::TemplateMailer
       'DONDATE' => donation.donation_date,
       'CHNUMBER' => donation.details
     },
-  headers: {"X-MC-SigningDomain" => "http://sonsafaris.com"}
+    headers: {"X-MC-SigningDomain" => "http://sonsafaris.com"}
   end
 end
