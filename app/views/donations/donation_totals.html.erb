@@ -1,0 +1,15 @@
+<h1>All Donations</h1>
+<h3>Total all-time donations: <%= @totals %></h3>
+<% @donations_by_month.keys.sort.each do |month| %>
+  <div class="month">
+    <h2>Month starting <%= month.to_s %></h2>
+    total for month: <%= @donations_by_month[month].collect(&:amount).sum %>
+    <h4>Each donation</h4>
+    <ul>
+    <% @donations_by_month[month].each do |d| %>
+    	<% donor = d.donor %>
+    	<li><%= d.amount %> on <%= d.donation_date %> from <%= donor.name %></li>
+	<% end %>
+    </ul>
+  </div>
+<% end %>

@@ -36,5 +36,17 @@ class DonationsController < ApplicationController
 
   def donation_totals
     @donations = Donation.all
+    @totals = 0
+    @donations.each do |d|
+      @totals += d.amount
+    end
+    @donations_by_month = Donation.find(:all).group_by{|donation| donation.donation_date.at_beginning_of_month}
+
   end
+
+  # def donations_by_month
+  #   @month = params[:month]
+  #   @donations_for_month = Donation.where(:donation_date => @month.beginning_of_month..@month.end_of_month)
+
+  # end
 end
