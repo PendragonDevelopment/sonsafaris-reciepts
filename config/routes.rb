@@ -15,7 +15,7 @@ SonsafarisReciepts::Application.routes.draw do
   end
 end
 #== Route Map
-# Generated on 04 May 2013 20:05
+# Generated on 05 May 2013 10:55
 #
 #                     root        /                                              home#index
 #         new_user_session GET    /users/sign_in(.:format)                       devise/sessions#new
@@ -25,12 +25,17 @@ end
 #        new_user_password GET    /users/password/new(.:format)                  devise/passwords#new
 #       edit_user_password GET    /users/password/edit(.:format)                 devise/passwords#edit
 #                          PUT    /users/password(.:format)                      devise/passwords#update
-# cancel_user_registration GET    /users/cancel(.:format)                        devise/registrations#cancel
-#        user_registration POST   /users(.:format)                               devise/registrations#create
-#    new_user_registration GET    /users/sign_up(.:format)                       devise/registrations#new
-#   edit_user_registration GET    /users/edit(.:format)                          devise/registrations#edit
-#                          PUT    /users(.:format)                               devise/registrations#update
-#                          DELETE /users(.:format)                               devise/registrations#destroy
+# cancel_user_registration GET    /users/cancel(.:format)                        devise_invitable/registrations#cancel
+#        user_registration POST   /users(.:format)                               devise_invitable/registrations#create
+#    new_user_registration GET    /users/sign_up(.:format)                       devise_invitable/registrations#new
+#   edit_user_registration GET    /users/edit(.:format)                          devise_invitable/registrations#edit
+#                          PUT    /users(.:format)                               devise_invitable/registrations#update
+#                          DELETE /users(.:format)                               devise_invitable/registrations#destroy
+#   accept_user_invitation GET    /users/invitation/accept(.:format)             devise/invitations#edit
+#   remove_user_invitation GET    /users/invitation/remove(.:format)             devise/invitations#destroy
+#          user_invitation POST   /users/invitation(.:format)                    devise/invitations#create
+#      new_user_invitation GET    /users/invitation/new(.:format)                devise/invitations#new
+#                          PUT    /users/invitation(.:format)                    devise/invitations#update
 #                    users GET    /users(.:format)                               users#index
 #                          POST   /users(.:format)                               users#create
 #                 new_user GET    /users/new(.:format)                           users#new

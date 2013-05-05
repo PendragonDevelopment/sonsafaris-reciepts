@@ -4,7 +4,7 @@
 #
 #  id                     :integer          not null, primary key
 #  email                  :string(255)      default(""), not null
-#  encrypted_password     :string(255)      default(""), not null
+#  encrypted_password     :string(255)      default("")
 #  reset_password_token   :string(255)
 #  reset_password_sent_at :datetime
 #  remember_created_at    :datetime
@@ -16,10 +16,12 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  name                   :string(255)
-#  street_address         :string(255)
-#  city                   :string(255)
-#  state                  :string(255)
-#  zip_code               :integer
+#  invitation_token       :string(60)
+#  invitation_sent_at     :datetime
+#  invitation_accepted_at :datetime
+#  invitation_limit       :integer
+#  invited_by_id          :integer
+#  invited_by_type        :string(255)
 #
 
 class User < ActiveRecord::Base
@@ -28,7 +30,7 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
+  devise :invitable, :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model

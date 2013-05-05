@@ -11,6 +11,7 @@ group :production do
 end
 gem "mandrill_mailer"
 gem "ransack"
+gem "devise_invitable"
 gem 'jquery-rails'
 gem "thin", ">= 1.5.0"
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]

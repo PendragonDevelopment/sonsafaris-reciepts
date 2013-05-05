@@ -6,7 +6,7 @@
 #  donation_date :date
 #  amount        :integer
 #  details       :string(255)
-#  user_id       :integer
+#  donor_id      :integer
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #

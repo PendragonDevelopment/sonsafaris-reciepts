@@ -4,6 +4,9 @@
 <p>Street: <%= @donor.street_address %></p>
 <p><%= @donor.city %>, <%= @donor.state %> <%= @donor.zip_code %></p>
 <%= link_to "Edit #{@donor.name}", edit_donor_path(@donor) %>
+<% if current_user.has_role? :admin %>
+	<%= link_to "Send invitation to donor to join", user_invitation_path(:user => {:email => @donor.email}), :method => :post, :class => "btn" if @donor.user.nil? %>
+<% end %>
 
 <h4><%= link_to "Add donation record", new_donor_donation_path(@donor) %></h4>
 
