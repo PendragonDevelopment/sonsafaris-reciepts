@@ -1,0 +1,10 @@
+<h1>Donor results</h1>
+<% @donors.each do |d| %>
+	<h2><%= d.name %></h2>
+	<% donations = d.donations %>
+	<ul>
+		<% donations.each do |dn| %>
+			<li><%= dn.donation_date %>: $<%= dn.amount %></li>
+		<% end %>
+	</ul>
+<% end %>

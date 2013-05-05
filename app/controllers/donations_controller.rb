@@ -47,6 +47,7 @@ class DonationsController < ApplicationController
       @totals += d.amount
     end
     @donations_by_month = Donation.find(:all).group_by{|donation| donation.donation_date.at_beginning_of_month}
+    @q = Donor.search(params[:q])
   end
 
   def send_monthly_reports

@@ -16,6 +16,11 @@ class DonorsController < ApplicationController
   	end
   end
 
+  def search
+    @q = Donor.search(params[:q])
+    @donors = @q.result(:distinct => true)
+  end
+
 	def edit
 		@user = current_user
 		@donor = Donor.find(params[:id])

@@ -9,12 +9,13 @@ SonsafarisReciepts::Application.routes.draw do
   resources :users 
   match "donation_totals", :to => "donations#donation_totals"
   match "send_monthly_reports", :to => "donations#send_monthly_reports"
+  match "donor_search", :to => "donors#search"
   resources :donors do
   	resources :donations
   end
 end
 #== Route Map
-# Generated on 04 May 2013 12:23
+# Generated on 04 May 2013 20:05
 #
 #                     root        /                                              home#index
 #         new_user_session GET    /users/sign_in(.:format)                       devise/sessions#new
@@ -39,6 +40,7 @@ end
 #                          DELETE /users/:id(.:format)                           users#destroy
 #          donation_totals        /donation_totals(.:format)                     donations#donation_totals
 #     send_monthly_reports        /send_monthly_reports(.:format)                donations#send_monthly_reports
+#             donor_search        /donor_search(.:format)                        donors#search
 #          donor_donations GET    /donors/:donor_id/donations(.:format)          donations#index
 #                          POST   /donors/:donor_id/donations(.:format)          donations#create
 #       new_donor_donation GET    /donors/:donor_id/donations/new(.:format)      donations#new

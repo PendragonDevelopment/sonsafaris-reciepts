@@ -1,5 +1,10 @@
 <h1>All Donations</h1>
 <h3>Total all-time donations: <%= @totals %></h3>
+<%= search_form_for @q, :url => donor_search_path, :html => {:method => :get} do |f| %>
+	<%= f.label :first_name_or_last_name_cont, "Donor's name contains:" %>
+	<%= f.text_field :first_name_or_last_name_cont, :class => "search-field" %>
+	<%= f.submit "Search for donors", :class => 'btn btn-primary' %>
+<% end %>
 <% @donations_by_month.keys.sort.each do |month| %>
   <div class="month">
     <h2><%= month.strftime("%B %Y") %></h2>
