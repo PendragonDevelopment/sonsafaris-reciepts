@@ -1,5 +1,5 @@
 <h1>All Donations</h1>
-<h3>Total all-time donations: <%= @totals %></h3>
+<h3>Total all-time donations: <%= number_to_currency(@totals) %></h3>
 <%= search_form_for @q, :url => donor_search_path, :html => {:method => :get} do |f| %>
 	<%= f.label :first_name_or_last_name_cont, "Donor's name contains:" %>
 	<%= f.text_field :first_name_or_last_name_cont, :class => "search-field" %>
@@ -8,7 +8,7 @@
 <% @donations_by_month.keys.sort.each do |month| %>
   <div class="month">
     <h2><%= month.strftime("%B %Y") %></h2>
-    total for month: <%= @donations_by_month[month].collect(&:amount).sum %>
+    total for month: <%= number_to_currency(@donations_by_month[month].collect(&:amount).sum) %>
     <h4>Each donation</h4>
     <ul>
     <% @donations_by_month[month].each do |d| %>
