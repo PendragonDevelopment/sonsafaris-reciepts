@@ -13,7 +13,7 @@
     <ul>
     <% @donations_by_month[month].each do |d| %>
     	<% donor = d.donor %>
-    	<li><%= d.amount %> on <%= d.donation_date %> from <%= donor.name %></li>
+    	<li><%= number_to_currency(d.amount) %> on <%= d.donation_date %> from <%= donor.name %></li>
 	<% end %>
     </ul>
     <%= link_to "Send monthly report emails", send_monthly_reports_path(:month => month ) %>
