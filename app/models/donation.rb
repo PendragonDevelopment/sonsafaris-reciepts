@@ -4,7 +4,7 @@
 #
 #  id            :integer          not null, primary key
 #  donation_date :date
-#  amount        :integer
+#  amount        :float
 #  details       :string(255)
 #  donor_id      :integer
 #  created_at    :datetime         not null
@@ -12,6 +12,6 @@
 #
 
 class Donation < ActiveRecord::Base
-	belongs_to :donor
+  belongs_to :donor
   attr_accessible :amount, :details, :donation_date, :donor_id
 end
