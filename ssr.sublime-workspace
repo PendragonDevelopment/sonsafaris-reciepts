@@ -4,56 +4,40 @@
 		"selected_items":
 		[
 			[
-				"donatio",
-				"donation_totals"
+				"tips",
+				"tips_report_id"
 			],
 			[
-				"be",
-				"beginning_of_month"
+				"par",
+				"partner_tips"
 			],
 			[
-				"dona",
-				"donation_date"
+				"tot",
+				"total_hours"
 			],
 			[
-				"donations",
-				"donations_by_month"
+				"total",
+				"total_dollars"
 			],
 			[
-				"do",
-				"donation"
+				"find",
+				"find_store"
 			],
 			[
-				"Don",
-				"Donor"
+				"tip",
+				"tips_report"
 			],
 			[
-				"donor",
-				"donor_id"
+				"sto",
+				"store_id"
 			],
 			[
-				"don",
-				"donor"
+				"store_",
+				"store_number"
 			],
 			[
-				"up",
-				"update"
-			],
-			[
-				"pa",
-				"params"
-			],
-			[
-				"fin",
-				"find"
-			],
-			[
-				"author",
-				"authorized"
-			],
-			[
-				"auth",
-				"authorize"
+				"mo",
+				"module	module"
 			],
 			[
 				"pre",
@@ -210,10 +194,6 @@
 			[
 				"html",
 				"html	html"
-			],
-			[
-				"total",
-				"total_points"
 			],
 			[
 				"pro",
@@ -427,78 +407,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/models/donation.rb",
-			"settings":
-			{
-				"buffer_size": 426,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/donors/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 887,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/donors/edit.html.erb",
-			"settings":
-			{
-				"buffer_size": 467,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 204,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 1161,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/donations_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1578,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/donations/donation_totals.html.erb",
-			"settings":
-			{
-				"buffer_size": 964,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/mailers/monthly_report_mailer.rb",
-			"settings":
-			{
-				"buffer_size": 782,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/donors_controller.rb",
-			"settings":
-			{
-				"buffer_size": 842,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -576,39 +484,71 @@
 	},
 	"file_history":
 	[
-		"/C/Sites/sonsafaris-reciepts/app/views/donors/index.html.erb",
-		"/C/Sites/sonsafaris-reciepts/app/views/donors/search.html.erb",
-		"/C/Sites/sonsafaris-reciepts/config/routes.rb",
-		"/C/Sites/sonsafaris-reciepts/db/migrate/20130506194402_change_amount_datatype_from_integer_to_float.rb",
-		"/C/Sites/sonsafaris-reciepts/app/models/donor.rb",
-		"/C/Sites/sonsafaris-reciepts/app/models/user.rb",
-		"/C/Sites/sonsafaris-reciepts/app/views/users/show.html.erb",
-		"/C/Sites/sonsafaris-reciepts/config/initializers/devise.rb",
-		"/C/Sites/sonsafaris-reciepts/Gemfile",
-		"/C/Sites/sonsafaris-reciepts/config/environments/production.rb",
-		"/C/Sites/sonsafaris-reciepts/config/application.rb",
-		"/C/Sites/sonsafaris-reciepts/config/initializers/mail.rb",
-		"/C/Sites/sonsafaris-reciepts/app/mailers/monthly_report_mailer.rb",
-		"/C/Sites/sonsafaris-reciepts/app/controllers/application_controller.rb",
-		"/C/Sites/sonsafaris-reciepts/app/views/layouts/_navigation.html.erb",
-		"/C/Sites/sonsafaris-reciepts/config/application.yml",
-		"/C/Sites/sonsafaris-reciepts/config/environments/development.rb",
-		"/C/Sites/sonsafaris-reciepts/app/controllers/donors_controller.rb",
-		"/C/Sites/sonsafaris-reciepts/app/views/donors/new.html.erb",
-		"/C/Sites/sonsafaris-reciepts/app/controllers/users_controller.rb",
-		"/C/Sites/sonsafaris-reciepts/README.textile",
+		"/C/Sites/sbcalc-rails/app/models/partner_tips.rb",
+		"/C/Sites/sbcalc-rails/app/models/store.rb",
+		"/C/Sites/sbcalc-rails/app/models/ability.rb",
+		"/C/Sites/sbcalc-rails/db/migrate/20130519163942_create_partner_tips.rb",
+		"/C/Sites/sonsafaris-reciepts/app/views/donations/donation_totals.html.erb",
+		"/C/Sites/sonsafaris-reciepts/app/views/donations/show.html.erb",
+		"/C/Sites/sonsafaris-reciepts/app/views/donors/edit.html.erb",
+		"/C/Sites/spartan/app/views/events/new.html.erb",
+		"/C/Sites/spartan/app/views/bookings/new.html.erb",
 		"/C/Sites/sonsafaris-reciepts/app/views/donations/new.html.erb",
-		"/C/Sites/sonsafaris-reciepts/db/migrate/20130503222724_add_phone_number_to_users.rb",
-		"/C/Sites/sonsafaris-reciepts/.gitignore",
-		"/C/Sites/sonsafaris-reciepts/db/seeds.rb",
-		"/C/Sites/sonsafaris-reciepts/app/controllers/admin/users_controller.rb",
-		"/C/Sites/sonsafaris-reciepts/app/views/admin/users/new.html.erb",
-		"/C/Sites/sonsafaris-reciepts/app/views/devise/registrations/new.html.erb",
-		"/C/Sites/sonsafaris-reciepts/db/migrate/20130416183519_create_donations.rb",
-		"/C/Sites/sonsafaris-reciepts/app/controllers/admin/users_controller",
-		"/C/Sites/godoccentral.com/config/database.example.yml",
-		"/C/Sites/godoccentral.com/db/schema.rb",
-		"/C/Users/Jordan/Dropbox/godoccentral.com/db/schema.rb",
+		"/C/Sites/sonsafaris-reciepts/app/views/donations/index.html.erb",
+		"/C/Sites/sbcalc-rails/app/assets/javascripts/application.js",
+		"/C/Sites/sonsafaris-reciepts/app/controllers/donations_controller.rb",
+		"/C/Sites/sbcalc-rails/app/views/layouts/_navigation.html.erb",
+		"/C/Sites/sonsafaris-reciepts/app/controllers/donors_controller.rb",
+		"/C/Sites/sbcalc-rails/app/views/stores/edit.html.erb",
+		"/C/Sites/sonsafaris-reciepts/app/views/donors/new.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/stores/new.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/users/index.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/users/_user.html.erb",
+		"/C/Sites/sbcalc-rails/app/controllers/registrations_controller.rb",
+		"/C/Sites/sbcalc-rails/app/models/tips_report.rb",
+		"/C/Sites/sbcalc-rails/config/application.yml",
+		"/C/Sites/sbcalc-rails/app/views/home/index.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/layouts/_messages.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/devise/shared/_links.html.erb",
+		"/C/Sites/sbcalc-rails/app/views/layouts/application.html.erb",
+		"/C/Sites/spartan/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/spartan/app/models/user.rb",
+		"/C/Sites/sbcalc-rails/db/migrate/20130518142706_add_store_number_to_users_index.rb",
+		"/C/Sites/sbcalc-rails/app/views/devise/sessions/new.html.erb",
+		"/C/Sites/sbcalc-rails/Gemfile",
+		"/C/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.1.6/scss/foundation/components/_grid.scss",
+		"/C/Sites/sbcalc-rails/db/seeds.rb",
+		"/C/Sites/spartan/config/application.rb",
+		"/C/Sites/sbcalc-rails/config/application.rb",
+		"/C/Sites/sbcalc-rails/db/migrate/20130516195520_create_tips_reports.rb",
+		"/C/Sites/sonsafaris-reciepts/app/models/donation.rb",
+		"/C/Sites/sbcalc-rails/db/migrate/20130516184709_add_store_id_to_users.rb",
+		"/C/Sites/sonsafaris-reciepts/app/models/donor.rb",
+		"/C/Sites/spartan/app/models/profile.rb",
+		"/C/Users/Jordan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jordan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Sites/sbcalc-rails/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/C/Sites/sbcalc-rails2/app/views/layouts/application.html.erb",
+		"/C/Sites/spartan/config/routes.rb",
+		"/C/Sites/sbcalc-rails/config/routes.rb",
+		"/C/Sites/sbcalc-rails2/app/views/devise/sessions/new.html.erb",
+		"/C/Sites/sbcalc-rails2/config/application.yml",
+		"/C/Sites/sbcalc-rails2/app/views/layouts/_messages.html.erb",
+		"/C/Sites/sbcalc-rails2/app/views/layouts/_navigation.html.erb",
+		"/C/Sites/sbcalc-rails/app/controllers/users_controller.rb",
+		"/C/Sites/spartan/app/controllers/users_controller.rb",
+		"/C/Sites/spartan/app/models/ability.rb",
+		"/C/Sites/krakentest/public/index.html",
+		"/C/Sites/krakenrails/app/assets/stylesheets/krakenrails/index.css",
+		"/C/Sites/krakenrails/app/assets/javascripts/krakenrails/index.js",
+		"/C/Sites/kraken-rails/lib/kraken-rails/version.rb",
+		"/C/Sites/kraken-rails/lib/kraken-rails.rb",
+		"/C/Sites/kraken-rails/kraken-rails.gemspec",
+		"/C/Sites/kraken-rails/lib/kraken-rails/engine.rb",
+		"/C/Sites/kraken/.gitignore",
+		"/C/Sites/kraken-rails/lib/kraken-rails/rails.rb",
+		"/C/Sites/kraken-rails/lib/kraken/rails.rb",
 		"/C/Sites/athena/app/assets/stylesheets/application.css.scss",
 		"/C/Sites/bwd_custom_designs/landscaping/views/_layout.html.erb",
 		"/C/Sites/pendragondevelopment/_themes/pendragon/layouts/default.html",
@@ -671,39 +611,7 @@
 		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Insert As Tag/Commands.sublime-commands",
 		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Lint/Commands.sublime-commands",
 		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/sublime-html-to-haml/Default (Windows).sublime-keymap",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/Default.sublime-commands",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Default.sublime-theme",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-commands",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/DetectSyntax/DetectSyntax.sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences (Windows).sublime-settings",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/D/class.sublime-snippet",
-		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/Rails/class.sublime-snippet",
-		"/C/dovahkiin/README.rdoc",
-		"/C/dovahkiin/app/assets/javascripts/application.js",
-		"/C/dovahkiin/config/routes.rb",
-		"/C/dovahkiin/config/initializers/session_store.rb",
-		"/C/dovahkiin/config/environments/production.rb",
-		"/C/resume/css/themes.scss",
-		"/C/dovahkiin/app/models/user.rb",
-		"/C/dovahkiin/app/assets/stylesheets/style.scss",
-		"/C/resume/css/_1300.scss",
-		"/C/resume/css/_960.scss",
-		"/C/dovahkiin/app/assets/stylesheets/cv/_960.scss",
-		"/C/resume/css/_768.scss",
-		"/C/dovahkiin/app/assets/stylesheets/cv/_768.scss",
-		"/C/resume/css/_600.scss",
-		"/C/dovahkiin/app/assets/stylesheets/cv/_600.scss",
-		"/C/resume/css/_480.scss",
-		"/C/dovahkiin/app/assets/stylesheets/cv/_480.scss",
-		"/C/dovahkiin/app/assets/stylesheets/cv/_base.scss"
+		"/C/Users/Ambrose Pendragon/AppData/Roaming/Sublime Text 2/Packages/sublime-html-to-haml/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -831,285 +739,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/models/donation.rb",
-					"settings":
-					{
-						"buffer_size": 426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								343,
-								343
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/donors/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								649,
-								649
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/donors/edit.html.erb",
-					"settings":
-					{
-						"buffer_size": 467,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								390,
-								390
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/home/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 1161,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								581,
-								581
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/donations_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1578,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1173,
-								1173
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/donations/donation_totals.html.erb",
-					"settings":
-					{
-						"buffer_size": 964,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								964,
-								964
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/mailers/monthly_report_mailer.rb",
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								772,
-								772
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/controllers/donors_controller.rb",
-					"settings":
-					{
-						"buffer_size": 842,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								339
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1176,7 +807,7 @@
 		[
 			[
 				"",
-				"/C/Sites/dev-sonsafaris/ss2.sublime-project"
+				"/C/wamp/www/Drupal7/sonsafaris.sublime-project"
 			]
 		],
 		"width": 380.0
