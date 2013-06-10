@@ -22,6 +22,6 @@ class Donor < ActiveRecord::Base
 	attr_accessible :city, :first_name, :last_name, :state, :street_address, :zip_code, :email, :phone_number, :user_id
 
 	def name
-		"#{first_name} #{last_name}"
+		"#{last_name}, #{first_name}"
 	end
 end
