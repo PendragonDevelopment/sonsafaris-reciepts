@@ -1,9 +1,13 @@
 <h1>All Donations</h1>
 <h3>Total all-time donations: <%= number_to_currency(@totals) %></h3>
 <%= search_form_for @q, :url => donor_search_path, :html => {:method => :get} do |f| %>
-	<%= f.label :first_name_or_last_name_cont, "Donor's name contains:" %>
-	<%= f.text_field :first_name_or_last_name_cont, :class => "search-field" %>
-	<%= f.submit "Search for donors", :class => 'btn btn-primary' %>
+    <div class="row">
+        <div class="large-4 columns">
+            <%= f.label :first_name_or_last_name_cont, "Donor's name contains:" %>
+            <%= f.text_field :first_name_or_last_name_cont %>
+        </div>
+    </div>
+    <%= f.submit "Search for donors", :class => 'button' %>
 <% end %>
 <% @donations_by_month.keys.sort.each do |month| %>
   <div class="month">
@@ -16,6 +20,6 @@
     	<li><%= number_to_currency(d.amount) %> on <%= d.donation_date %> from <%= donor.name %></li>
 	<% end %>
     </ul>
-    <%= link_to "Send monthly report emails", send_monthly_reports_path(:month => month ) %>
+    <%= link_to "Send monthly report emails", send_monthly_reports_path(:month => month ), :class => "button" %>
   </div>
 <% end %>

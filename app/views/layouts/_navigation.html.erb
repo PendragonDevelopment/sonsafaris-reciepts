@@ -5,6 +5,7 @@
   </ul>
   <section class="top-bar-section">
     <ul class="right">
+      <% if user_signed_in? %>
         <li class="divider"></li>
         <li>
           <%= link_to "Add new donor", new_donor_path %>
@@ -13,7 +14,6 @@
         <li>
           <%= link_to "View donors", donors_path %>
         </li>
-      <% if user_signed_in? %>
         <% if current_user.has_role? :admin %>
           <li class="divider"></li>
           <li>
